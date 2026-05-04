@@ -25,6 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
+        // Generate participant list with delete icons
+        // Participant info: displays list of registered students with ability to unregister
         const participantsList = details.participants.length > 0
           ? details.participants.map(p => `<li>${p} <span class="delete-icon" data-activity="${name}" data-email="${p}">&times;</span></li>`).join('')
           : '<li><em>No participants yet</em></li>';

@@ -132,6 +132,8 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+/* Styles for participant list */
+/* Participant info: hides bullets and styles delete icons */
 .participants-list {
   list-style: none;
   margin-left: 10px;
